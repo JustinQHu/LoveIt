@@ -273,7 +273,7 @@
     Plume = ""
     HackTheBox = ""
     RootMe= ""
-    Email = "placerhodler"
+    Email = "logischermix@gmail.com"
     Phone = ""
     RSS = ""
 
@@ -376,11 +376,11 @@
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
