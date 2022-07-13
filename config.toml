@@ -62,7 +62,11 @@
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = "<p>All content is licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/' target='_blank'>Attribution-NonCommercial-NoDerivatives 4.0 International.</a></p>"
+    custom = """
+      <p>All content is licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/' target='_blank'>Attribution-NonCommercial-NoDerivatives 4.0 International.</a><br>
+         <a href='/donate' target='_blank'><b>Donating</b></a> to charities and nonprofits to make the world a better place!
+      </p>
+      """
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = true
