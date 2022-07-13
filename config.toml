@@ -62,7 +62,7 @@
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = ""
+    custom = "<p>All content is licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/' target='_blank'>Attribution-NonCommercial-NoDerivatives 4.0 International.</a></p>"
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = true
@@ -190,7 +190,7 @@
       social = true
       # disclaimer (HTML format is supported)
       # 免责声明 (支持 HTML 格式)
-      disclaimer = "<p>All content is licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/' target='_blank'>Attribution-NonCommercial-NoDerivatives 4.0 International.</a></p>"
+      disclaimer = "<p><i><b>So God created human beings in his own image.<br>In the image of God he created them;<br>male and female he created them.</b></i></p>"
     # Home page posts
     # 主页文章列表
     [params.home.posts]
