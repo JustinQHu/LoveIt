@@ -404,7 +404,7 @@
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
@@ -416,10 +416,10 @@
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = true
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        owner = "JustinQHu"
+        repo = "Meblog-comments"
+        clientId = "016fe0a24078348cc121"
+        clientSecret = "8440260789e544530341177e4f44e2b763cd792d"
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
