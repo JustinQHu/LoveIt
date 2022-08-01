@@ -64,7 +64,8 @@
     # 自定义内容 (支持 HTML 格式)
     custom = """
       <p>All content is licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/' target='_blank'>Attribution-NonCommercial-NoDerivatives 4.0 International.</a><br>
-         <a href='/donate'><b>Donating</b></a> to charities and nonprofits to make the world a better place!
+         <a href='/donate'><b>Donating</b></a> to charities and nonprofits to make the world a better place!<br>
+         <a href='/visited_places' target='_blank'><b>My Visited Places!</b></a>
       </p>
       """
     # whether to show Hugo and theme info
