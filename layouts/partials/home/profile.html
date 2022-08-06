@@ -95,4 +95,18 @@
             {{- . | safeHTML -}}
         </h3>
     {{- end -}}
+
+
+    {{ $scratch := newScratch }}
+    {{ range (where .Site.RegularPages "Type" "in" (slice "posts")) }}
+        {{ $scratch.Add "wordcount" .WordCount }}
+    {{ end }}
+
+    <hr style="margin:40px 0; border: 0; height: 2px; background-image: linear-gradient(to right, transparent, #CCC, transparent);">
+    <div id ="dashboard" style=" font-size: 14px; text-shadow: 1px 1px #b1b1b133; font-weight: 200;font-style: oblique;text-transform: lowercase;color: #ccc;">
+        <div id="line1" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start">
+            <div style="text-align: left; width: 50%; display: inline-block;letter-spacing: normal;word-spacing: normal;vertical-align: top;">Articles: {{ len (where .Site.RegularPages "Section" "!=" "") }}</div>
+            <div style="text-align: right; width: 50%;display: inline-block;letter-spacing: normal;word-spacing: normal;vertical-align: top;">Words: {{ $scratch.Get "wordcount" | lang.NumFmt 0 }}</div>
+        </div>
+    </div>
 </div>
