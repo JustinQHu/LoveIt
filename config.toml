@@ -23,7 +23,7 @@
   title = "LogischerMix"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "Life is an Epic Search for Fundamental Truth!"
+  description = "Many are called but few are chose"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
@@ -195,7 +195,7 @@
       social = true
       # disclaimer (HTML format is supported)
       # 免责声明 (支持 HTML 格式)
-      disclaimer = "<p><i><b>So God created human beings in his own image.<br>In the image of God he created them;<br>male and female he created them.</b></i></p>"
+      disclaimer = "<p><i><b>Life is en epic search for the ultimate truth through happiness and suffering.<br>I am who i am!</b></i></p>"
     # Home page posts
     # 主页文章列表
     [params.home.posts]
